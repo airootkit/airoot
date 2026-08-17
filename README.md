@@ -1,5 +1,5 @@
 <div align="center">
-<img src="favicon.png" />
+<img src="icon.png" />
 
 <H1>👋 Welcom to RunAIToolkit</H1>
     <p>

@@ -3,7 +3,7 @@
 
 <H1>👋 Welcom to RunAIToolkit</H1>
     <p>
-   <strong>免费、私密的 AI 实用工具 | RunAIToolkit</strong>
+   <strong>Fast, private utilities for better AI work | RunAIToolkit</strong>
 </p>
 </div>
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RunAIToolkit - Client-Side AI Micro-Tools</title>
+  <meta name="description" content="Zero-latency, privacy-first, browser-based AI tools for developers and creators. Calculate tokens, clean markdown, and split Midjourney grids effortlessly.">
+  <meta name="keywords" content="AI tools, token calculator, markdown cleaner, Midjourney grid splitter, privacy first, developer utilities">
+  <meta name="author" content="RunAIToolkit">
+  
+  <!-- Open Graph / Facebook / Social Cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://runaitoolkit.com/">
+  <meta property="og:title" content="RunAIToolkit - Privacy-First AI Utilities">
+  <meta property="og:description" content="100% client-side AI tools. Estimate API costs, clean prompts, and split image grids instantly in your browser.">
+  <meta property="og:image" content="https://runaitoolkit.com/og-image.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="RunAIToolkit - Client-Side AI Tools">
+  <meta name="twitter:description" content="Zero-latency AI utilities running entirely inside your browser.">
+
+  <!-- Tailwind CSS CDN for Quick Styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans min-h-screen flex flex-col justify-between">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800 p-6">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold tracking-wider text-blue-400">RunAI<span class="text-white">Toolkit</span></h1>
+      <span class="text-xs bg-blue-500/10 text-blue-400 border border-blue-500/20 px-3 py-1 rounded-full">100% Client-Side</span>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto px-6 py-12 flex-1 flex flex-col justify-center items-center text-center">
+    <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
+      Fast, Private AI Tools <br><span class="text-blue-500">Running Entirely in Your Browser</span>
+    </h2>
+    <p class="text-slate-400 max-w-2xl text-lg mb-10">
+      Zero latency, zero server logs, and zero tracking. Process your prompts, tokens, and image assets locally without sending data to third-party cloud servers.
+    </p>
+
+    <!-- Tool Cards Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full text-left">
+      <!-- Tool 1 -->
+      <a href="https://runaitoolkit.com/tools/ai-token-calculator/" class="p-6 bg-slate-800/50 border border-slate-700/60 rounded-xl hover:border-blue-500 transition-all group">
+        <div class="text-blue-400 text-2xl mb-2">🧮</div>
+        <h3 class="font-semibold text-lg mb-2 text-white group-hover:text-blue-400">Token & Cost Estimator</h3>
+        <p class="text-slate-400 text-sm">Calculate exact token usage and API costs for GPT-4o, Claude 3.5, and DeepSeek R1.</p>
+      </a>
+
+      <!-- Tool 2 -->
+      <a href="https://runaitoolkit.com/tools/prompt-markdown-cleaner/" class="p-6 bg-slate-800/50 border border-slate-700/60 rounded-xl hover:border-blue-500 transition-all group">
+        <div class="text-blue-400 text-2xl mb-2">🧹</div>
+        <h3 class="font-semibold text-lg mb-2 text-white group-hover:text-blue-400">Prompt & Markdown Cleaner</h3>
+        <p class="text-slate-400 text-sm">Strip unwanted formatting, unicode artifacts, and system tags from LLM outputs.</p>
+      </a>
+
+      <!-- Tool 3 -->
+      <a href="https://runaitoolkit.com/tools/midjourney-grid-splitter/" class="p-6 bg-slate-800/50 border border-slate-700/60 rounded-xl hover:border-blue-500 transition-all group">
+        <div class="text-blue-400 text-2xl mb-2">✂️</div>
+        <h3 class="font-semibold text-lg mb-2 text-white group-hover:text-blue-400">Grid Splitter</h3>
+        <p class="text-slate-400 text-sm">Slice Midjourney and Flux 2x2 image grids into high-res single files locally.</p>
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 py-6 text-center text-slate-500 text-sm">
+    <p>&copy; 2026 RunAIToolkit.com. All rights reserved. | <a href="https://runaitoolkit.com/privacy-policy/" class="hover:underline">Privacy Policy</a></p>
+  </footer>
+
+</body>
+</html>

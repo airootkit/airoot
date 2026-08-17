@@ -58,7 +58,7 @@ Unlike conventional utility sites that suffer from server latency, aggressive pa
 
 ### 纯前端、零延迟的开发者与创作者 AI 微工具箱
 
-> 🔗 **在线体验**：[https://runaitoolkit.com](https://runaitoolkit.com)
+> 🔗 **在线体验**：[https://runaitoolkit.com/zh/](https://runaitoolkit.com/zh/)
 
 **RunAIToolkit** 是一个专为 AI 开发者、Prompt 工程师和数字创作者打造的轻量级、纯前端 AI 工具箱。
 
@@ -66,9 +66,9 @@ Unlike conventional utility sites that suffer from server latency, aggressive pa
 
 #### 🛠️ 核心功能组件
 
-1. **🧮 [AI Token & API Cost Estimator](https://runaitoolkit.com/tools/ai-token-calculator)**：精准计算 Token 数量并估算主流 LLM（GPT-4o, Claude 3.5, DeepSeek R1 等）的 API 费用，Web Worker 本地处理不卡顿。
-2. **🧹 [Prompt & Markdown Cleaner](https://runaitoolkit.com/tools/prompt-markdown-cleaner)**：一键清洗 LLM 输出中的冗余标记、不可见字符与 Markdown 伪影，输出标准化纯净文本。
-3. **✂️ [Midjourney & Flux Grid Splitter](https://runaitoolkit.com/tools/midjourney-grid-splitter)**：基于本地 HTML5 Canvas 将 2x2 宫格图毫秒级切分为高清单图，质量零衰减。
+1. **🧮 [AI Token & API Cost Estimator](https://runaitoolkit.com/zh/tools/ai-token-calculator/)**：精准计算 Token 数量并估算主流 LLM（GPT-4o, Claude 3.5, DeepSeek R1 等）的 API 费用，Web Worker 本地处理不卡顿。
+2. **🧹 [Prompt & Markdown Cleaner](https://runaitoolkit.com/zh/tools/prompt-markdown-cleaner/)**：一键清洗 LLM 输出中的冗余标记、不可见字符与 Markdown 伪影，输出标准化纯净文本。
+3. **✂️ [Midjourney & Flux Grid Splitter](https://runaitoolkit.com/zh/tools/midjourney-grid-splitter/)**：基于本地 HTML5 Canvas 将 2x2 宫格图毫秒级切分为高清单图，质量零衰减。
 
 #### ⚡ 优势摘要
 
@@ -79,7 +79,7 @@ Unlike conventional utility sites that suffer from server latency, aggressive pa
 
 ### 💬 Contact & Feedback
 
-Suggestions or feature requests? Feel free to open an Issue or test live at [runaitoolkit.com](https://runaitoolkit.com)!
+Suggestions or feature requests? Feel free to open an Issue or test live at [runaitoolkit.com](https://runaitoolkit.com/about/)!
 
 <div align="center"><img src="img/zh.png" /></div>
 

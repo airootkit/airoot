@@ -7,63 +7,80 @@
 </p>
 </div>
 
-## aRunAIToolkit工具简介
+# 🚀 RunAIToolkit
 
-# 🚀 RunAIToolkit — 纯前端、零延迟的开发者与创作者 AI 微工具箱
+[English](#english) | [中文](#中文)
+
+---
+
+<a name="english"></a>
+## 🌐 English Description
+
+### Fast, Private, Zero-Latency AI Micro-Tools Running 100% in Your Browser
+
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC?logo=tailwindcss)](https://tailwindcss.com/)
+[![Deployment](https://img.shields.io/badge/Deployment-Cloudflare%20Pages-F38020?logo=cloudflare)](https://pages.cloudflare.com/)
+[![Privacy](https://img.shields.io/badge/Privacy-100%25%20Client--Side-brightgreen)](#-privacy--architecture)
+
+> 🔗 **Live Platform**: [https://runaitoolkit.com](https://runaitoolkit.com)
+
+**RunAIToolkit** is a suite of lightweight, browser-first AI utilities designed for developers, prompt engineers, and digital creators. 
+
+Unlike conventional utility sites that suffer from server latency, aggressive paywalls, or privacy risks, RunAIToolkit operates under a **100% client-side architecture**. All processing happens entirely inside your browser's local memory—**zero API calls, zero server logs, and absolute privacy.**
+
+#### 🛠️ Featured Tools
+
+1. **🧮 [AI Token & API Cost Estimator](https://runaitoolkit.com/tools/ai-token-calculator)**
+   * Calculates exact token usage and estimates API costs across top LLMs (GPT-4o, Claude 3.5, DeepSeek R1).
+   * Runs tokenization inside Web Workers to ensure butter-smooth UI performance.
+
+2. **🧹 [Prompt & Markdown Cleaner](https://runaitoolkit.com/tools/prompt-markdown-cleaner)**
+   * Instantly strips system artifacts, invisible unicode tags, and inconsistent markdown formatting from LLM outputs.
+   * Delivers standardized, clean text ready for production codebases or secondary prompt chaining.
+
+3. **✂️ [Midjourney & Flux Grid Splitter](https://runaitoolkit.com/tools/midjourney-grid-splitter)**
+   * Slices 2x2 image grids from Midjourney, Flux, or Stable Diffusion into 4 high-res individual images.
+   * Powered by local HTML5 Canvas (`ctx.drawImage`) with zero compression loss and zero upload wait times.
+
+#### ⚡ Privacy & Architecture Highlights
+
+* **Privacy-First by Design**: Prompts, API parameters, and image assets **never leave your device**. Perfect for handling NDA-restricted client data.
+* **Zero Latency**: Powered by client-side JS engines and Web Workers to bypass cloud API roundtrips.
+* **Edge-Accelerated Performance**: Built with Next.js App Router (`output: 'export'`) and hosted on Cloudflare's Anycast CDN with global TTFB under 50ms.
+* **$0/Month Server Overhead**: Ensures long-term, free accessibility for the community without risk of shutdown.
+
+<div align="center"><img src="img/en.png" /></div>
+---
+
+<a name="中文"></a>
+## 🇨🇳 中文介绍
+
+### 纯前端、零延迟的开发者与创作者 AI 微工具箱
 
 > 🔗 **在线体验**：[https://runaitoolkit.com](https://runaitoolkit.com)
 
 **RunAIToolkit** 是一个专为 AI 开发者、Prompt 工程师和数字创作者打造的轻量级、纯前端 AI 工具箱。
 
-市面上大多数在线工具往往存在**高延迟、强制上传数据、界面臃肿或按次收费**的问题。RunAIToolkit 采用 **100% 浏览器端（Client-Side）架构**，所有计算与文本/图像处理均在本地内存完成，**零服务器响应等待，数据永不出本地**。
+采用 **100% 浏览器端（Client-Side）架构**，所有计算与文本/图像处理均在本地内存完成，**零服务器响应等待，数据永不出本地**。
+
+#### 🛠️ 核心功能组件
+
+1. **🧮 [AI Token & API Cost Estimator](https://runaitoolkit.com/tools/ai-token-calculator)**：精准计算 Token 数量并估算主流 LLM（GPT-4o, Claude 3.5, DeepSeek R1 等）的 API 费用，Web Worker 本地处理不卡顿。
+2. **🧹 [Prompt & Markdown Cleaner](https://runaitoolkit.com/tools/prompt-markdown-cleaner)**：一键清洗 LLM 输出中的冗余标记、不可见字符与 Markdown 伪影，输出标准化纯净文本。
+3. **✂️ [Midjourney & Flux Grid Splitter](https://runaitoolkit.com/tools/midjourney-grid-splitter)**：基于本地 HTML5 Canvas 将 2x2 宫格图毫秒级切分为高清单图，质量零衰减。
+
+#### ⚡ 优势摘要
+
+* **绝对隐私**：100% 本地运算，商业敏感数据与图片永不上传第三方服务器。
+* **极速响应**：基于 Next.js 静态导出并部署于 Cloudflare Pages 全球 CDN，首字节响应低于 50ms。
 
 ---
 
-### 🛠️ 核心功能组件
+### 💬 Contact & Feedback
 
-#### 1. 🧮 [AI Token & API Cost Estimator](https://runaitoolkit.com/tools/ai-token-calculator)
+Suggestions or feature requests? Feel free to open an Issue or test live at [runaitoolkit.com](https://runaitoolkit.com)!
 
-* **功能**：精准计算输入文本的 Token 数量，并实时估算主流 LLM（包括 GPT-4o、Claude 3.5、DeepSeek R1 等）的 API 调用成本。
-* **特点**：在 Web Worker 中进行分词计算，大文本输入也不会卡顿 UI，帮助开发者在批量跑 Prompt 前精确控本。
-
-#### 2. 🧹 [Prompt & Markdown Cleaner](https://www.google.com/search?q=https://runaitoolkit.com/tools/prompt-markdown-cleaner)
-
-* **功能**：一键清洗 LLM 输出文本中的系统冗余标记、不可见 Unicode 字符、混乱的 Markdown 格式及代码块伪影。
-* **特点**：极速正则清洗，输出干净标准化文本，直接对接代码库、CMS 或下一阶段的 Prompt 链式调用。
-
-#### 3. ✂️ [Midjourney & Flux Grid Splitter](https://runaitoolkit.com/tools/midjourney-grid-splitter)
-
-* **功能**：将 Midjourney、Flux 或 Stable Diffusion 生成的 2x2 四格宫格图一键切分为 4 张无损高清单图。
-* **特点**：基于本地 HTML5 Canvas (`ctx.drawImage`) 渲染，无需上传图像到后端，毫秒级导出，原图质量零衰减。
-
----
-
-### ⚡ 隐私与架构优势
-
-* **数据绝对隐私（Privacy-First）**：无论是敏感的 Prompt 提示词、商业 API 文本还是个人图片，**100% 不经过任何第三方服务器**，完全符合严苛的数据合规与 NDA 要求。
-* **零延迟（Zero Latency）**：充分利用现代浏览器 JS 引擎与 Web Workers，免去 API 往返请求时间。
-* **极致性能（Edge Served）**：基于 Next.js App Router 静态导出 (`output: 'export'`)，部署于 Cloudflare 全球 Anycast 边缘网络，首字节响应（TTFB）低于 50ms。
-* **零运维成本（$0/Month Server Cost）**：无后端 API、无 Serverless 算力开销，确保工具能够长期稳定免费运营。
-
----
-
-### 🛠️ 技术栈
-
-* **Framework**: Next.js (App Router, SSG Static Export)
-* **Styling & UI**: Tailwind CSS + Shadcn/ui
-* **Core Logic**: Pure Client-Side JavaScript / HTML5 Canvas / Web Workers
-* **Deployment**: GitHub Actions + Cloudflare Pages CDN
-
----
-
-### 💬 反馈与建议
-
-如果你在使用过程中遇到任何问题，或希望看到更多纯前端运行的 AI 微工具，欢迎在 Issues 中提出或前往 [runaitoolkit.com](https://runaitoolkit.com) 体验反馈！
-
-<div align="center">
-<img src="img/zh.png" />
-<img src="img/en.png" />
-
-</div>
+<div align="center"><img src="img/zh.png" /></div>
 
 
